@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#album-selection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.album {
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.album img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+
+.album img:hover {
+    transform: scale(1.1);
+}
+
+.album button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.album button:hover {
+    background-color: #555;
+}
+
+audio, video {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+}

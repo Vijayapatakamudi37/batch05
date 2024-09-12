@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Streaming Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Music Streaming Website</h1>
+        <p>Select your favorite album and start streaming!</p>
+    </header>
+
+    <section id="album-selection">
+        <!-- Album 1 -->
+        <div class="album">
+            <img src="https://m.media-amazon.com/images/M/MV5BOGFmNWE0ZjMtZDFlNy00YzY1LThlZDItZThmNTg3YjRjN2E0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Album 1 Cover">
+            <h2>Album 1</h2>
+            <button onclick="playSong('album1')">Play Album 1</button>
+        </div>
+        <!-- Album 2 -->
+        <div class="album">
+            <img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/guntur-kaaram-et00310760-1686726453.jpg "alt="Album 2 Cover">
+            <h2>Album 2</h2>
+            <button onclick="playSong('album2')">Play Album 2</button>
+        </div>
+        <!-- Album 3 -->
+        <div class="album">
+            <img src="https://m.media-amazon.com/images/M/MV5BOGFmNWE0ZjMtZDFlNy00YzY1LThlZDItZThmNTg3YjRjN2E0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Album 3 Cover">
+            <h2>Album 3</h2>
+            <button onclick="playSong('album3')">Play Album 3</button>
+        </div>
+    </section>
+
+    <!-- Audio Player -->
+    <audio id="audioPlayer" controls>
+        <source id="audioSource" src="C:\Users\vijay\Downloads\Ullaasam.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+<audio id="audioPlayer" controls>
+        <source id="audioSource" src="C:\Users\vijay\Downloads\[iSongs.info] 02 - Aa Rojulu Malli Raavu.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+<audio id="audioPlayer" controls>
+        <source id="audioSource" src="C:\Users\vijay\Downloads\[iSongs.info] 03 - Kurchi Madathapetti.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
